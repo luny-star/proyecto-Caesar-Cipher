@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Design.css">
+    <link rel="shortcut icon" href="img/candado.jpg">
+    <title>Formulario</title>
+</head> 
+<body> 
+    
+    <div class="container">
+
+        <h2>ENCRIPTAR Y DESENCRIPTAR SMS</h2>
+
+
+        <div class="formulario">
+        
+            <div class="input-fields">
+
+
+                <input type="text" class="input" id="ingTextoHtml" placeholder="Message secret">
+                <input type="text" class="input" id="keyHtml" placeholder="Number">
+                
+
+                <a href="#">
+                    <span class="btn btnCifrar" id="botonE">Encriptar</span>
+                    <div class="Liquid"></div>
+                </a>
+
+                <a href="#">
+                    <span class="btn btnDescifrar" id="botonD">Dsncriptr</span>
+                    <div class="Liquid"></div>
+                </a>
+
+            </div>
+
+
+
+            <div class="msg">
+                <textarea id="salTextoHtml">
+
+
+                </textarea>
+                
+                <a class="right" href="#">
+                    <span class="btn" id="botonLimpiar">Limpiar</span>
+                    <div class="Liquido"></div>
+                </a>
+
+
+                <div id="rightD">Copiar</div>
+                
+                <label id="ready"></label>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/Logic.js"></script>
+    <script src="js/Copy.js"></script>
+
+    </script>
+</body>
+</html>
